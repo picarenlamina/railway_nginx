@@ -25,3 +25,7 @@ COPY nginx.conf /etc/nginx/nginx.conf
 ```
 
 to the end of the Dockerfile. For more information, [read the docs](https://hub.docker.com/_/nginx).
+## Personal
+Es necesario exponer el puerto 80 en el fichero Dockerfile configurado como una variable de Railway
+https://docs.railway.app/deploy/exposing-your-app
+source:Desplegando una aplicación de Node en Railway https://www.youtube.com/watch?v=-hByojv3Lz0&t=1772s
